@@ -17,7 +17,7 @@ export default function Contact() {
     setSending(true);
     // TODO: ganti dengan API call nyata
     await new Promise((r) => setTimeout(r, 800));
-    alert('Pesan terkirim!');
+    alert('Pesan berhasil terkirim!');
     setForm(INITIAL);
     setSending(false);
   }, []);
@@ -26,15 +26,15 @@ export default function Contact() {
     <section id="contact" className="section contact">
       <div className="container mx-auto px-4">
         <h2 className="section-title">Get In Touch</h2>
-        <p className="section-subtitle">Ada project atau mau ngobrol? Hubungi gue.</p>
+        <p className="section-subtitle">Ada project seru atau sekadar ingin ngobrol? Jangan ragu untuk menghubungi.</p>
 
         <div className="contact-content">
 
           <div className="contact-info">
             {[
-              { icon: 'fas fa-envelope',  title: 'Email',    sub: 'ozik@example.com',  href: 'mailto:ozik@example.com',                               label: 'Kirim Email' },
-              { icon: 'fab fa-whatsapp',  title: 'WhatsApp', sub: '+62 123 456 7890',  href: 'https://wa.me/621234567890',                            label: 'Kirim Pesan', ext: true },
-              { icon: 'fab fa-github',    title: 'GitHub',   sub: 'github.com/ozik',   href: 'https://github.com',                                    label: 'Lihat Profil', ext: true },
+              { icon: 'fas fa-envelope', title: 'Email',    sub: 'ozik@example.com', href: 'mailto:ozik@example.com',       label: 'Kirim Email' },
+              { icon: 'fab fa-whatsapp', title: 'WhatsApp', sub: '+62 123 456 7890',  href: 'https://wa.me/621234567890',    label: 'Kirim Pesan', ext: true },
+              { icon: 'fab fa-github',   title: 'GitHub',   sub: 'github.com/ozik',   href: 'https://github.com',            label: 'Lihat Profil', ext: true },
             ].map(({ icon, title, sub, href, label, ext }) => (
               <div key={title} className="contact-item">
                 <div className="contact-icon"><i className={icon} aria-hidden="true" /></div>
@@ -50,13 +50,13 @@ export default function Contact() {
           <div className="contact-form">
             <form onSubmit={handleSubmit} noValidate>
               <div className="form-group">
-                <input type="text"  name="name"    value={form.name}    onChange={handleChange} placeholder="Nama Lo"  required />
+                <input type="text"  name="name"    value={form.name}    onChange={handleChange} placeholder="Nama Kamu"  required />
               </div>
               <div className="form-group">
-                <input type="email" name="email"   value={form.email}   onChange={handleChange} placeholder="Email Lo" required />
+                <input type="email" name="email"   value={form.email}   onChange={handleChange} placeholder="Email Kamu" required />
               </div>
               <div className="form-group">
-                <textarea name="message" value={form.message} onChange={handleChange} rows={5} placeholder="Pesan Lo" required />
+                <textarea name="message" value={form.message} onChange={handleChange} rows={5} placeholder="Tulis pesanmu di sini..." required />
               </div>
               <button type="submit" className="submit-btn" disabled={sending}>
                 <span>{sending ? 'Mengirim...' : 'Kirim Pesan'}</span>

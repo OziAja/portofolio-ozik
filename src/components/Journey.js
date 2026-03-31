@@ -1,10 +1,40 @@
 const MILESTONES = [
-  { year: '2023', title: 'Mulai dari Nol',      desc: 'Belajar HTML & CSS dari scratch. Bikin halaman statis pertama kali dan langsung ketagihan.',                              icon: 'fas fa-seedling' },
-  { year: '2023', title: 'JavaScript & DOM',    desc: 'Mulai paham logika pemrograman. Belajar manipulasi DOM, event, dan fetch API.',                                          icon: 'fas fa-code' },
-  { year: '2024', title: 'Framework Pertama',   desc: 'Dive ke React dan Laravel. Mulai ngerti konsep komponen, routing, dan MVC.',                                             icon: 'fas fa-layer-group' },
-  { year: '2024', title: 'Database & Backend',  desc: 'Belajar MySQL, MongoDB, dan REST API. Mulai bisa bikin CRUD app yang nyambung end-to-end.',                              icon: 'fas fa-database' },
-  { year: '2025', title: 'Fullstack Project',   desc: 'Bikin project fullstack pertama. Next.js di frontend, Laravel/Node.js di backend, deploy ke production.',                icon: 'fas fa-rocket' },
-  { year: 'Now',  title: 'Terus Berkembang',    desc: 'Masih belajar, masih ngoprek. Fokus ke performa, best practice, dan nulis kode yang lebih clean.',                      icon: 'fas fa-infinity' },
+  {
+    year: '2023',
+    title: 'Mulai dari Nol',
+    desc: 'Belajar HTML & CSS dari scratch. Pertama kali bikin halaman web statis dan langsung ketagihan.',
+    icon: 'fas fa-seedling',
+  },
+  {
+    year: '2023',
+    title: 'JavaScript & DOM',
+    desc: 'Mulai paham logika pemrograman. Belajar manipulasi DOM, event handling, dan fetch API.',
+    icon: 'fas fa-code',
+  },
+  {
+    year: '2024',
+    title: 'Framework Pertama',
+    desc: 'Mulai explore React dan Laravel. Ngerti konsep komponen, routing, dan pola MVC.',
+    icon: 'fas fa-layer-group',
+  },
+  {
+    year: '2024',
+    title: 'Database & Backend',
+    desc: 'Belajar MySQL, MongoDB, dan REST API. Berhasil bikin CRUD app yang nyambung end-to-end.',
+    icon: 'fas fa-database',
+  },
+  {
+    year: '2025',
+    title: 'Fullstack Project',
+    desc: 'Selesaikan project fullstack pertama — Next.js di frontend, Laravel/Node.js di backend, deploy ke production.',
+    icon: 'fas fa-rocket',
+  },
+  {
+    year: 'Now',
+    title: 'Terus Berkembang',
+    desc: 'Masih terus belajar dan ngoprek. Fokus ke performa, best practice, dan code yang lebih clean.',
+    icon: 'fas fa-infinity',
+  },
 ];
 
 export default function Journey() {

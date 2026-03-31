@@ -26,28 +26,28 @@ export default function About() {
             <h2 className="section-title" style={{ textAlign: 'left' }}>About Me</h2>
             <div className="about-description">
               <p>
-                I'm an aspiring full-stack developer from Indonesia who enjoys building web applications
-                and learning new technologies. I focus on creating responsive interfaces and understanding
-                how systems work from frontend to backend.
+                Saya seorang aspiring full-stack developer dari Indonesia yang senang membangun
+                web application dan terus belajar teknologi baru. Fokus utama saya adalah
+                membuat interface yang responsif dan memahami cara kerja sistem dari frontend sampai backend.
               </p>
               <p>
-                Most of my experience comes from personal projects, where I practice writing clean code
-                and improving performance.
+                Sebagian besar pengalaman saya berasal dari personal project — tempat saya berlatih
+                menulis clean code dan terus improve performa aplikasi.
               </p>
             </div>
 
             <div className="about-highlights">
               <div className="highlight">
                 <i className="fas fa-graduation-cap" aria-hidden="true" />
-                <div><h4>Education</h4><p>SMKN 1 SAMBI</p></div>
+                <div><h4>Pendidikan</h4><p>SMKN 1 SAMBI</p></div>
               </div>
               <div className="highlight">
                 <i className="fas fa-map-marker-alt" aria-hidden="true" />
-                <div><h4>Location</h4><p>Boyolali, ID</p></div>
+                <div><h4>Lokasi</h4><p>Boyolali, Indonesia</p></div>
               </div>
               <div className="highlight">
                 <i className="fas fa-briefcase" aria-hidden="true" />
-                <div><h4>Experience</h4><p>1+ Years</p></div>
+                <div><h4>Pengalaman</h4><p>1+ Tahun</p></div>
               </div>
             </div>
 

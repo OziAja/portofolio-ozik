@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="footer-brand">
             <span className="footer-logo">Ozik<span className="footer-logo-accent">Dev</span></span>
             <p className="footer-tagline">
-              Fullstack Developer — bikin web cepat, responsif, dan gampang dipakai.
+              Fullstack Developer — membangun web yang cepat, responsif, dan mudah digunakan.
             </p>
           </div>
 
@@ -18,6 +18,7 @@ export default function Footer() {
               <li><a href="#about">About</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#project">Projects</a></li>
+              <li><a href="#services">Services</a></li>
               <li><a href="#journey">Journey</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,16 +28,12 @@ export default function Footer() {
             <h4 className="footer-heading">Kontak</h4>
             <ul>
               <li>
-                <i className="fas fa-envelope"></i>
+                <i className="fas fa-envelope" aria-hidden="true" />
                 <a href="mailto:arrozikinkholifahk@gmail.com">arrozikinkholifahk@gmail.com</a>
               </li>
               <li>
-                <i className="fab fa-github"></i>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/ozik</a>
-              </li>
-              <li>
-                <i className="fab fa-linkedin"></i>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com/in/ozik</a>
+                <i className="fab fa-github" aria-hidden="true" />
+                <a href="https://github.com/OzikAja" target="_blank" rel="noopener noreferrer">github.com/OzikAja</a>
               </li>
             </ul>
           </div>
@@ -45,10 +42,9 @@ export default function Footer() {
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} <span className="footer-logo-accent">OzikDev</span>. All Rights Reserved.</p>
           <div className="footer-socials">
-            <a href="#" aria-label="GitHub"><i className="fab fa-github"></i></a>
-            <a href="#" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-            <a href="#" aria-label="WhatsApp"><i className="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/OzikAja" aria-label="GitHub"><i className="fab fa-github" /></a>
+            <a href="https://www.instagram.com/rrzkn_13?igsh=b3pxc2Iwd2FteDI1" aria-label="Instagram"><i className="fab fa-instagram" /></a>
+            <a href="https://wa.me/6285601546818" aria-label="WhatsApp"><i className="fab fa-whatsapp" /></a>
           </div>
         </div>
 

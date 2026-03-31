@@ -1,7 +1,7 @@
 const PROJECTS = [
   {
     title: 'Portfolio Website',
-    desc: 'Website portofolio personal yang dibangun dengan Next.js dan Tailwind CSS. Menampilkan skills, projects, dan cara menghubungi.',
+    desc: 'Website portofolio personal yang dibangun dengan Next.js dan Tailwind CSS — menampilkan skills, projects, dan info kontak.',
     tech: ['Next.js', 'Tailwind CSS', 'JavaScript'],
     demo: '#', github: '#',
   },
@@ -13,7 +13,7 @@ const PROJECTS = [
   },
   {
     title: 'Landing Page Produk',
-    desc: 'Landing page responsif untuk produk UMKM lokal. Dioptimasi untuk kecepatan loading dan konversi pengunjung.',
+    desc: 'Landing page responsif untuk produk UMKM lokal, dioptimasi untuk kecepatan loading dan konversi pengunjung.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     demo: '#', github: '#',
   },
@@ -24,7 +24,7 @@ export default function Projects() {
     <section id="project" className="section projects">
       <div className="container mx-auto px-4">
         <h2 className="section-title">Featured Projects</h2>
-        <p className="section-subtitle">Bukan sekadar daftar — ini bukti nyata yang pernah gue bangun.</p>
+        <p className="section-subtitle">Bukan sekadar daftar — ini hasil nyata yang sudah dibangun.</p>
 
         <div className="projects-grid">
           {PROJECTS.map(({ title, desc, tech, demo, github }) => (
