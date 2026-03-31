@@ -32,9 +32,9 @@ export default function Contact() {
 
           <div className="contact-info">
             {[
-              { icon: 'fas fa-envelope', title: 'Email',    sub: 'ozik@example.com', href: 'mailto:ozik@example.com',       label: 'Kirim Email' },
-              { icon: 'fab fa-whatsapp', title: 'WhatsApp', sub: '+62 123 456 7890',  href: 'https://wa.me/621234567890',    label: 'Kirim Pesan', ext: true },
-              { icon: 'fab fa-github',   title: 'GitHub',   sub: 'github.com/ozik',   href: 'https://github.com',            label: 'Lihat Profil', ext: true },
+              { icon: 'fas fa-envelope', title: 'Email',    sub: 'arrozikinkholifah@gmail.com', href: 'mailto:arrozikinkholifah@gmail.ckm',       label: 'Kirim Email' },
+              { icon: 'fab fa-whatsapp', title: 'WhatsApp', sub: '+62 85601546818',  href: 'https://wa.me/6285601546818',    label: 'Kirim Pesan', ext: true },
+              { icon: 'fab fa-github',   title: 'GitHub',   sub: 'github.com/OzikAja',   href: 'https://github.com/OzikAja',            label: 'Lihat Profil', ext: true },
             ].map(({ icon, title, sub, href, label, ext }) => (
               <div key={title} className="contact-item">
                 <div className="contact-icon"><i className={icon} aria-hidden="true" /></div>

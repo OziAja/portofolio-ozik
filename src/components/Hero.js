@@ -57,10 +57,9 @@ export default function Hero() {
             </div>
 
             <div className="social-links">
-              <a href="#" aria-label="WhatsApp"  className="social-icon whatsapp"><i className="fab fa-whatsapp" /></a>
-              <a href="#" aria-label="LinkedIn"  className="social-icon linkedin"><i className="fab fa-linkedin-in" /></a>
-              <a href="#" aria-label="GitHub"    className="social-icon github"><i className="fab fa-github" /></a>
-              <a href="#" aria-label="Instagram" className="social-icon instagram"><i className="fab fa-instagram" /></a>
+              <a href="https://wa.me/6285601546818" aria-label="WhatsApp"  className="social-icon whatsapp"><i className="fab fa-whatsapp" /></a>
+              <a href="https://github.com/OzikAja" aria-label="GitHub"    className="social-icon github"><i className="fab fa-github" /></a>
+              <a href="https://www.instagram.com/rrzkn_13?igsh=b3pxc2Iwd2FteDI1" aria-label="Instagram" className="social-icon instagram"><i className="fab fa-instagram" /></a>
             </div>
 
             <div className="hero-actions">
