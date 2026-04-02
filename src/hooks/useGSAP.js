@@ -21,6 +21,7 @@ export default function useGSAP() {
       ];
       heroSelectors.forEach((sel) => {
         document.querySelectorAll(sel).forEach((el) => {
+          el.style.visibility = "hidden";
           el.style.opacity = "0";
           el.style.transform = "none";
           el.style.animation = "none";
@@ -54,9 +55,15 @@ export default function useGSAP() {
 
           const imgEl = document.querySelector(".image-container");
 
-          // Force visible dulu sebelum animasi
-          textEls.forEach(el => { el.style.opacity = "0"; });
-          if (imgEl) imgEl.style.opacity = "0";
+          // Set visibility visible + opacity 0 sebelum animasi
+          textEls.forEach(el => {
+            el.style.visibility = "visible";
+            el.style.opacity = "0";
+          });
+          if (imgEl) {
+            imgEl.style.visibility = "visible";
+            imgEl.style.opacity = "0";
+          }
 
           // Teks stagger masuk dari bawah
           gsap.fromTo(textEls,
