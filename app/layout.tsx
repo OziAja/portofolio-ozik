@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import PageTransition from '../src/components/PageTransition';
 
 export const metadata: Metadata = {
   title: 'Ozik — Full-Stack Web Developer',
@@ -43,7 +44,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <PageTransition />
+        {children}
+      </body>
     </html>
   );
 }
